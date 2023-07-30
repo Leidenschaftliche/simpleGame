@@ -1,0 +1,33 @@
+
+#mainAttr{
+    display: flex;
+}
+#cardsAttr{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100vw;
+    min-height: 512px;
+}
+
+
+#seperator-border{
+    background-color: gray;
+    min-height: 24px;
+    border: 6px;
+    border-color: black;
+    border-style:solid ;
+    border-radius: 8px;
+}
+
+button{
+    min-width: 128px;
+    min-height: 48px;
+}
+
+#scoreboard{
+    min-width: 256px;
+    min-height: 512px;
+    background-color: green;
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,23 +11,43 @@
 
 
 <body>
-
+    <header>
+        <p>
+            Warning: Only for coding purposes. Do not waste your life playing such games.
+        </p>
+    </header>
+    <br>
+    <br>
     <main id="mainAttr">
-    
-    <div id="cardsAttr">
-        <div id="dealerCards"></div>
-        <div id="seperator-border"></div>
-        <div id="playerCards"></div>
-    </div>
-    <div id="scoreboard">
 
-    </div>
+        <div id="cardsAttr">
+            <div id="dealerCards"></div>
+            <div id="seperator-border"></div>
+            <div id="playerCards"></div>
+        </div>
+        <div id="scoreboard">
+            <p>Dealer Score:</p>
+            <p id="dealerScore"></p>
+            <br />
+            <p>Player Score:</p>
+            <p id="playerScore"></p>
+            <br>
+            <p id="gameResult"></p>
+        </div>
     </main>
+    <br>
+    <br>
     <footer>
-        <button onclick="newCard(true)">
-        <button onclick="newCard(false)">
-
+        <button id="startGame" onclick="startGame()">
+            Start Game
         </button>
+        <button id="pHit" onclick="playerHit()">
+            Hit
+        </button>
+        <button id="pStay" onclick="playerStay()">
+            Stay
+        </button>
+
     </footer>
 </body>
 

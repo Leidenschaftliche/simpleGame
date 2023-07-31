@@ -17,17 +17,42 @@
     min-height: 24px;
     border: 6px;
     border-color: black;
-    border-style:solid ;
+    border-style: solid;
     border-radius: 8px;
 }
 
 button{
     min-width: 128px;
     min-height: 48px;
+    font-size: 30px;
+    font-weight: 900;
 }
 
 #scoreboard{
-    min-width: 256px;
-    min-height: 512px;
+    min-width: 768px;
+    min-height: 640px;
     background-color: green;
+}
+
+#scoreboard > p{
+    font-size: 44px;
+    font-weight: bold;
+    color:azure;
+}
+
+header{
+    background-color: lightgray;
+    min-height: 66px;
+    display: flex;
+}
+header > p {
+    font-size: 44px;
+    font-weight: bold;
+    color:darkred;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    gap:44px;
 }
